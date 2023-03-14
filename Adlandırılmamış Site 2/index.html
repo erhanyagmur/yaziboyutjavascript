@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Yazı-Boyut</title>
+<link rel="stylesheet" type="text/css" href="stil.css">
+<script src="kontrol.js"></script>
+</head>
+
+<body onLoad="yukle()">
+<div id="cerceve">
+  <div id="yazi">
+    <p>Video, size görüşünüzü kanıtlamak için güçlü bir yol sunar.  Çevrimiçi Video'ya tıkladığınızda, eklemek istediğiniz videoya ait ekleme  kodunu yapıştırabilirsiniz. Belgenize en iyi uyan videoyu çevrimiçi olarak  aramak için bir anahtar sözcük de yazabilirsiniz.<br>
+   </p>
+  </div>
+  <div id="buton">
+    <form id="form1" name="form1" method="post">
+      <p>
+        <input type="radio" name="secim"  value="12" onClick="tikla('12pt')">
+      12pt</p>
+      <p>
+        <input type="radio" name="secim"  value="16" onClick="tikla('16pt')">
+        <label for="radio2">16pt</label></p>
+      <p>
+        <input type="radio" name="secim" value="20"  onClick="tikla('20pt')">
+        <label for="radio3">20pt</label></p>
+      <p>
+        <input type="radio" name="secim"  value="24"  onClick="tikla('24pt')">
+        <label for="radio4">24pt </label>
+      </p>
+    </form>
+  </div>
+</div>
+</body>
+</html>
